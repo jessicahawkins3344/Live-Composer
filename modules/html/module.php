@@ -152,6 +152,17 @@ class DSLC_Html extends DSLC_Module {
 				'ext' => 'px',
 			),
 			array(
+				'label' => __( 'Margin Top', 'live-composer-page-builder' ),
+				'id' => 'css_margin_top',
+				'std' => '0',
+				'type' => 'slider',
+				'refresh_on_change' => false,
+				'affect_on_change_el' => '.dslc-html-module-content',
+				'affect_on_change_rule' => 'margin-top',
+				'section' => 'styling',
+				'ext' => 'px',
+			),
+			array(
 				'label' => __( 'Margin Bottom', 'live-composer-page-builder' ),
 				'id' => 'css_margin_bottom',
 				'std' => '0',

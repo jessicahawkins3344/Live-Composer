@@ -304,6 +304,17 @@
 			'increment' => 0.5,
 		);
 
+		$dslc_var_row_options['margin_t'] = array(
+			'id' => 'margin_t',
+			'std' => '0',
+			'label' => __( 'Margin Top', 'live-composer-page-builder' ),
+			'type' => 'slider',
+			'affect_on_change_rule' => 'margin-top',
+			'ext' => 'px',
+			'max' => 500,
+			'increment' => 1,
+		);
+
 		$dslc_var_row_options['margin_b'] = array(
 			'id' => 'margin_b',
 			'std' => '0',
